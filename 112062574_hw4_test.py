@@ -1,5 +1,4 @@
 from osim.env import L2M2019Env
-from wandb import agent
 from Agent import flatten_obs, PolicyNetwork
 import torch
 import numpy as np
