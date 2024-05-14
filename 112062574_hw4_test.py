@@ -6,7 +6,7 @@ import numpy as np
 class Agent(object):
     def __init__(self):
         self.policy = PolicyNetwork(339, 22)
-        self.policy.load_state_dict(torch.load('112062574_hw4_data', map_location=torch.device('cpu')))
+        self.policy.load_state_dict(torch.load('112062574_hw4_data-3300', map_location=torch.device('cpu')))
         self.policy.eval()
         self.device = 'cpu'
         
